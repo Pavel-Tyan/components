@@ -5,7 +5,7 @@ on:
     branches: [master]
 
 jobs:
-  visual_tests:
+  build:
     name: Visual Tests
     runs-on: ubuntu-latest
     container:
